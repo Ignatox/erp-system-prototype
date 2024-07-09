@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ERP.invOperativa.InvOperativaApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-09T16:37:38" hostname="JUAMPIIGNA" time="0.389">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ERP.invOperativa.InvOperativaApplicationTests" time="0.389"/>
+  <system-out><![CDATA[13:37:33.148 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ERP.invOperativa.InvOperativaApplicationTests]: InvOperativaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:37:33.254 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ERP.invOperativa.InvOperativaApplication for test class com.ERP.invOperativa.InvOperativaApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-07-09T13:37:33.675-03:00  INFO 1240 --- [    Test worker] c.E.i.InvOperativaApplicationTests       : Starting InvOperativaApplicationTests using Java 17.0.9 with PID 1240 (started by ignac in D:\Documents\Igna\Code\Repositorios\erp-system-prototype)
+2024-07-09T13:37:33.676-03:00  INFO 1240 --- [    Test worker] c.E.i.InvOperativaApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-07-09T13:37:34.339-03:00  INFO 1240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09T13:37:34.438-03:00  INFO 1240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 9 JPA repository interfaces.
+2024-07-09T13:37:34.887-03:00  INFO 1240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-09T13:37:34.949-03:00  INFO 1240 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09T13:37:34.985-03:00  INFO 1240 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-09T13:37:35.343-03:00  INFO 1240 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-09T13:37:35.376-03:00  INFO 1240 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-09T13:37:35.649-03:00  INFO 1240 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/betodb user=SA
+2024-07-09T13:37:35.652-03:00  INFO 1240 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-09T13:37:35.684-03:00  WARN 1240 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09T13:37:36.766-03:00  INFO 1240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09T13:37:36.821-03:00  INFO 1240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-09T13:37:37.105-03:00  INFO 1240 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-09T13:37:37.759-03:00  WARN 1240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09T13:37:38.095-03:00  INFO 1240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/betodb'
+2024-07-09T13:37:38.156-03:00  INFO 1240 --- [    Test worker] c.E.i.InvOperativaApplicationTests       : Started InvOperativaApplicationTests in 4.722 seconds (process running for 5.944)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
