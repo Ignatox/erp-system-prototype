@@ -14,7 +14,11 @@
 #ENTRYPOINT ["java", "-jar", "app.jar"]
 # Usa una imagen base de OpenJDK 17 con Alpine Linux
 FROM alpine:latest
-EXPOSE 9000
+
+VOLUME /data
+
+EXPOSE 8080
+
 COPY build/libs/invOperativa-0.0.1-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "/app.jar"]
