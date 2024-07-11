@@ -13,6 +13,11 @@
 #
 #ENTRYPOINT ["java", "-jar", "app.jar"]
 # Usa una imagen base de OpenJDK 17 con Alpine Linux
+FROM gradle:latest AS build
+WORKDIR /app
+COPY . .
+RUN gradle bootJar
+
 FROM alpine:latest
 
 VOLUME /data
