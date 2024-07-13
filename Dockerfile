@@ -16,12 +16,9 @@
 FROM gradle:latest AS build
 WORKDIR /app
 COPY . .
-RUN gradle bootJar
 RUN gradle build --no-daemon
 
 FROM alpine:latest
-
-VOLUME /data
 
 EXPOSE 8080
 
