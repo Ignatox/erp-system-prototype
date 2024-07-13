@@ -19,6 +19,7 @@ COPY . .
 RUN gradle build --no-daemon
 
 FROM alpine:latest
+RUN apk add --no-cache openjdk17
 
 EXPOSE 8080
 
