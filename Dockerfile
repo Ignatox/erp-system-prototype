@@ -37,5 +37,6 @@ FROM alpine:latest
 RUN apk add --no-cache openjdk17
 WORKDIR /app
 COPY ./build/libs/invOperativa-0.0.1-SNAPSHOT.jar app.jar
+RUN chmod +x app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
